@@ -1,0 +1,321 @@
+@CHARSET "UTF-8";
+body { margin : 0; padding : 0 }
+/*head*/
+.all { 
+	width : 960px;
+	margin : 0 auto;
+}
+.head {
+	width : 100%;
+	height : 300px;	
+	position : relative;
+}
+.name {
+	position : absolute;
+	font-size : 80px;
+	font-weight : bold;
+	color : white;
+	opacity : 0.8;
+	text-align : center;
+	bottom : 42%; 
+	width : 100%;
+}
+.domain {
+	position : absolute;
+	right : 5%;
+	bottom : 10%; 
+	color : #333;
+	ont-weight : bold;
+}
+/*navigation*/
+.menu {
+	width : 100%;
+	height : 60px;
+	float : left;
+	background: lightyellow;
+}
+
+#container {
+	border-left  : 1px solid lightgray;
+	border-right : 1px solid lightgray;
+	overflow: hidden;
+}
+
+/*section*/
+.content {
+	width : 755px;
+	float : left;
+	border-right : 1px solid lightgray;
+}
+/*aside*/
+.ad {
+	width: 200px;
+	float: left;
+	padding: 20px 0;
+	text-align: center;
+}
+.ad img {
+	width:160px;
+	margin:10px 0;
+	text-align:center;
+}
+/*footer*/
+.info {
+	width : 960px;
+	height : 100px; 
+	float : left;	
+	background-color:#C1F0FE;
+	text-align:center;
+}
+/*상단이미지*/
+.img {
+	width : 100%;
+	height : 100%;
+}
+/*index 이미지*/
+.indexImg {
+	width : 50%;
+	height : 50%;
+	display: block;
+    margin: 50px auto;
+}
+/*index Text*/
+.indexText {
+	text-align: center;
+	margin: 0 0 50px 0;
+	font-size: 50px;
+	color: coral;
+}
+.blank {
+	margin:50px;
+}
+.list {
+	padding: 0 0 0 50px;
+}
+.list > li {
+	padding : 5px;
+}
+.blank h2 {
+	margin: 20px 0;
+	padding:10px;
+	border-width: 5px 0;
+	color:#FD94F1;
+	border-color:#A0E2FF;
+	border-style:solid; 		
+}
+.array {
+	list-style: none;
+	height: 30px;
+	padding: 0 0 0 50px;
+}
+.array > li {
+	display: inline;	
+	float:left;
+	font-size : 17px;
+}
+.array a {
+	padding: 5px 5px 5px 5px;
+	display: block;
+	width: 120px;
+}
+.link {
+	padding-bottom:10px;
+	text-align:right;
+	margin-right:40px;
+	text-decoration:none;
+	text-color:#333;
+	font-size:15px;
+}
+a {
+	text-decoration:none;
+}
+a:link, a:visited {
+	color: black;
+}
+a:hover, a:active, a:focus {
+	color:#FD94F1;	
+}
+.line {
+	border-top:1px dotted red;
+	padding-top:10px;
+}
+.table {
+	width:95%;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin: 0 auto 10px;
+}
+.table th, .table td {
+	border: 1px solid black;
+	height: 25px;
+}
+th, td {
+	padding:5px 10px;
+}
+.table th {
+	background-color: #F3E5FC;
+}
+caption {
+	text-align: left;
+}
+.fields, fields:focus {
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #333;
+	color:black;
+}
+.space {
+	padding: 5px 0;
+}
+.button {
+	margin: 5px 0 0 20px;
+}
+.textarea {
+	margin: 0 auto;
+	display: block;
+}
+.indent {
+	padding: 0 0 0 20px;
+}
+
+.alignCenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*회원가입 정렬*/
+#tableInsertMember th {
+	text-align: left;
+}
+/*회원가입 완료 버튼*/
+.buttonspace {
+	text-align: center;
+	margin: 20px;
+}
+
+/*Cal*/
+.caltable {
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.caltable input {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 3px;
+}
+.caltable td {
+	width: 50px;
+	height: 50px;
+	padding: 0 2px;
+}
+
+/*회원정보 관리 table*/
+.memberPageTable {
+	text-align: center;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+.memberPageTable input {
+	width: 50px;
+	height: 30px;
+	font-size: 15px;
+}
+/*회원 전체 조회 table*/
+#result table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resultTable {
+	margin-left: auto;
+	margin-right: auto;
+}
+.resultTableSize {
+	margin: 5px;
+}
+/*회원정보 관리 안보이도록 함*/
+.selectAll {
+	display : none; 
+}
+
+/*rank table*/
+.rankarray input[type="text"] {
+	width: 50px;
+	height: 30px;
+	font-size: 15px;
+	margin: 3px;
+}
+.rankarray {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.rankarray tr{
+	border: 1px solid black;
+	height: 40px;
+}
+.rankarray td{
+	border: 1px solid black;
+	height: 40px;
+}
+.rankarray th{
+	border: 1px solid black;
+	text-align: center;
+	height: 40px;
+}	
+.resultbutton {
+	text-align: center;
+	margin: 10px;
+	font-size: 15px;
+	padding:5px 10px;
+}
+/*게시판 제목*/
+.boardTitle {
+	display: block;
+	text-align: center;
+}
+#writing {
+	padding: 10px 0;
+}
+#pageNumer {
+	text-align: center;
+}
+
+/*게시판 글쓰기*/
+.boardWriting {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.boardWriting tr{
+	border: 1px solid black;
+	height: 40px;
+}
+.boardWriting td{
+	border: 1px solid black;
+	height: 40px;
+}
+.boardWriting th{
+	border: 1px solid black;
+	text-align: center;
+	height: 40px;
+}	
+.boardWriting input[type="text"] {
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	margin: 3px;
+}
+.boardWriting input[type="password"] {
+	width: 100%;
+	height: 30px;
+	font-size: 15px;
+	margin: 3px;
+}
